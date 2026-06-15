@@ -188,12 +188,10 @@ app.get("/", (c) => {
           <div id="error" class="hidden mt-8 bg-red-900 border border-red-500 rounded-lg p-4 text-red-200"></div>
       </div>
 
-      <footer class="fixed bottom-4 left-0 w-full px-4 pointer-events-none">
-        <div class="text-center footer-readability">
-          <h1 class="text-3xl sm:text-4xl font-bold mb-1 footer-title">
-            ✨ The Mystical Psychic ✨
+      <footer class="fixed bottom-4 left-0 w-full px-4 pointer-events-none text-center">
+          <h1 class="text-2xl sm:text-3xl font-bold mb-1 footer-title text-shadow-lg">
+            ✨ Zoltana The Mystic Oracle ✨
           </h1>
-        </div>
       </footer>
 
       <script>
