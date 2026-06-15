@@ -28,7 +28,7 @@ function checkRateLimit(ip: string): boolean {
   return true;
 }
 
-app.get("/pixel-crystal-ball.jpeg", serveStatic({ path: "./pixel-crystal-ball.jpeg" }));
+app.get("/psychic.gif", serveStatic({ path: "./psychic.gif" }));
 
 app.get("/", (c) => {
     return c.html(`
@@ -55,7 +55,7 @@ app.get("/", (c) => {
           animation: fadeIn 0.5s ease-out;
         }
         .psychic-image {
-          background-image: url('/pixel-crystal-ball.jpeg');
+          background-image: url('/psychic.gif');
             background-size: cover;
             background-position: center;
         }
