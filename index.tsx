@@ -139,7 +139,7 @@ app.get("/", (c) => {
       </style>
     </head>
     <body class="from-slate-900 via-purple-900 to-slate-900 min-h-screen flex items-center justify-center p-4 psychic-image">
-      <div class="w-full max-w-2xl">>
+      <div class="w-full max-w-2xl">
           <form id="psychicForm" class="space-y-6">
             <div>
               <label for="question" class="sr-only">
